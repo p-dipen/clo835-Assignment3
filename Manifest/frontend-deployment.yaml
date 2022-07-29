@@ -21,9 +21,9 @@ spec:
         - name: frontend-app
           image: 881740801742.dkr.ecr.us-east-1.amazonaws.com/php-guestbook:latest
           resources:
-          requests:
-            cpu: 100m
-            memory: 100Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
           env:
             - name: GET_HOSTS_FROM
               value: dns
