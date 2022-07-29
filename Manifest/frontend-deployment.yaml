@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend-app
-          image: 881740801742.dkr.ecr.us-east-1.amazonaws.com/php-guestbook:latest
+          image: paulczar/gb-frontend:v5
           resources:
             requests:
               cpu: 100m
